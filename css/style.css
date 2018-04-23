@@ -1,0 +1,97 @@
+.titulo-depoimentos{
+	background-color: #479D7A;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 0; 
+	color: #FFF;
+	font-size: 24px;
+	clear: both;
+}
+
+#brand-nome{
+	color: #6CB999;
+}
+
+body, html{
+	height: 100%;
+}
+
+header{
+	background-image: url(../img/principal.jpg);
+	height: 100%;
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+}
+
+.button-pricipal{
+	background-color: #388364; 
+	border-color: #388364;
+}
+
+.button-pricipal:hover{
+	background-color: #6CB999; 
+	border-color: #6CB999;
+}
+
+header h1{
+	margin: 0;
+}
+
+.macedorecepcoes-banner{
+	color: #FFF;
+	background-color: rgba(000, 000, 000, 0.7);
+	padding: 15px;
+	width: 80%;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .5s;
+}
+
+#jumbo-back{
+	background-color: #479D7A;
+	color: #FFFFFF;
+}
+
+.group-row{
+	padding: 10px 0;
+}
+
+footer{
+	background-color: #333;
+	color: #FFF;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+
+footer address{
+	margin-bottom: 0;
+}
+
+@media(min-width: 768px){
+	
+}
+
+.clear{
+	clear: both;
+}
+
+.mg-bt{
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+@media(min-width: 768px){
+	.macedorecepcoes-banner{
+		left: 0;
+		transform: translate(3%, -80%);
+		width: 50%;
+	}
+	.macedorecepcoes-bannerWrapper{
+		position: relative;
+		height: 100%;
+	}
+}
